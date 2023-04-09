@@ -1,0 +1,388 @@
+<!-- Name :- Vishal Manojbhai Popat
+Student Number :- 8866335 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cognify - empower your mind</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/LOGO.png" type="image/x-icon" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/LOGO.png" alt="Cognify Logo"
+                    class="cognify-logo" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <a class="btn btn-primary" href="courses.html">Explore</a>
+                    <input class="form-control me-2 ms-2" type="search" placeholder="Search Courses"
+                        aria-label="Search" />
+                </form>
+                <ul class="navbar-nav flex-end m-2">
+                    <li class="nav-item text-center">
+                        <a href="index.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 41.458 38.358">
+                                <g id="Group_87" data-name="Group 87" transform="translate(0.669 0.5)">
+                                    <path id="Path_50" data-name="Path 50"
+                                        d="M39.446,33.929l-6.08-6.08V20.825a2.3,2.3,0,0,0-4.6,0V23.25L24.24,18.722a6.05,6.05,0,0,0-8.363,0l-15.2,15.2a2.3,2.3,0,0,0,3.253,3.252l15.2-15.2a1.358,1.358,0,0,1,1.861,0l15.2,15.2a2.3,2.3,0,1,0,3.253-3.252Z"
+                                        transform="translate(-0.001 -17.047)" fill="#767676" stroke="#707070"
+                                        stroke-width="1" />
+                                    <path id="Path_51" data-name="Path 51"
+                                        d="M83.928,128.079a1.129,1.129,0,0,0-1.6,0L68.958,141.447a1.132,1.132,0,0,0-.331.8V152a4.143,4.143,0,0,0,4.143,4.143h6.621V145.888h7.475v10.253h6.621A4.143,4.143,0,0,0,97.63,152v-9.751a1.127,1.127,0,0,0-.331-.8Z"
+                                        transform="translate(-63.069 -118.783)" fill="#767676" stroke="#707070"
+                                        stroke-width="1" />
+                                </g>
+                            </svg>
+
+                            <a class="nav-link text-decoration-none" aria-current="page" href="index.html">Home</a></a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a href="courses.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 38.243 38.243">
+                                <path id="course-tile-sort-svgrepo-com"
+                                    d="M12.192,15.518H3.324A3.328,3.328,0,0,1,0,12.192V3.325A3.326,3.326,0,0,1,3.324,0h8.868a3.327,3.327,0,0,1,3.325,3.325v8.867A3.327,3.327,0,0,1,12.192,15.518ZM3.324,3.1a.227.227,0,0,0-.22.222v8.867a.227.227,0,0,0,.22.222h8.868a.228.228,0,0,0,.222-.222V3.325a.228.228,0,0,0-.222-.222Zm8.868,34.139H3.324A3.328,3.328,0,0,1,0,33.917V25.049a3.328,3.328,0,0,1,3.324-3.324h8.868a3.327,3.327,0,0,1,3.325,3.325v8.868A3.328,3.328,0,0,1,12.192,37.243ZM3.324,24.829a.226.226,0,0,0-.22.222v8.868a.225.225,0,0,0,.22.22h8.868a.227.227,0,0,0,.222-.222V25.049a.227.227,0,0,0-.222-.22H3.324ZM33.917,37.243H25.049a3.326,3.326,0,0,1-3.324-3.325V25.049a3.326,3.326,0,0,1,3.324-3.324h8.868a3.326,3.326,0,0,1,3.325,3.321v8.868a3.331,3.331,0,0,1-3.327,3.329ZM25.049,24.829a.227.227,0,0,0-.222.222v8.868a.226.226,0,0,0,.22.222h8.868a.226.226,0,0,0,.222-.22V25.052a.227.227,0,0,0-.222-.222H25.047Zm2.6-5.642a3.312,3.312,0,0,1-2.353-.971l-6.269-6.269a3.324,3.324,0,0,1,0-4.7L25.294.97a3.41,3.41,0,0,1,4.7,0l6.269,6.269a3.324,3.324,0,0,1,0,4.7L30,18.21a3.3,3.3,0,0,1-2.349.975Zm0-16.083a.225.225,0,0,0-.158.062L21.222,9.435a.226.226,0,0,0,0,.315l6.269,6.269a.222.222,0,0,0,.313,0L34.074,9.75a.224.224,0,0,0,0-.313L27.8,3.167a.219.219,0,0,0-.155-.062Z"
+                                    transform="translate(0.5 0.5)" fill="#767676" stroke="#707070" stroke-width="1" />
+                            </svg>
+
+                            <a class="nav-link" aria-current="page" href="courses.html">Browse</a></a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a href="courses.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 31.961 39.451">
+                                <g id="course-diary-svgrepo-com" transform="translate(1 1)">
+                                    <path id="Path_52" data-name="Path 52"
+                                        d="M33.961,20.726V5.745A3.745,3.745,0,0,0,30.216,2H7.745A3.745,3.745,0,0,0,4,5.745V35.706a3.745,3.745,0,0,0,3.745,3.745H30.216a3.745,3.745,0,0,0,3.745-3.745V32.9"
+                                        transform="translate(-4 -2)" fill="none" stroke="#767676" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke-width="2" />
+                                    <path id="Path_53" data-name="Path 53" d="M13,2V24.471l7.15-5.618,5.958,5.618V7.618"
+                                        transform="translate(3.853 -2)" fill="none" stroke="#767676"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </g>
+                            </svg>
+
+                            <a class="nav-link" aria-current="page" href="courses.html">My Courses</a></a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a href="about.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 46 46">
+                                <path id="icons8-info"
+                                    d="M25,2A23,23,0,1,0,48,25,23,23,0,0,0,25,2Zm0,9a3,3,0,1,1-3,3A3,3,0,0,1,25,11Zm4,27H21V36h2V23H21V21h6V36h2Z"
+                                    transform="translate(-2 -2)" fill="#767676" />
+                            </svg>
+
+                            <a class="nav-link" aria-current="page" href="about.html">About Us</a></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="filters">
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Type
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Courses</a></li>
+                <li><a class="dropdown-item" href="#">Videos</a></li>
+                <li><a class="dropdown-item" href="#">Audios</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Subject
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Business</a></li>
+                <li><a class="dropdown-item" href="#">Creative</a></li>
+                <li><a class="dropdown-item" href="#">Technology</a></li>
+                <li><a class="dropdown-item" href="#">Certifications</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Level
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Beginner</a></li>
+                <li><a class="dropdown-item" href="#">Intermediate</a></li>
+                <li><a class="dropdown-item" href="#">Advanced</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Duration
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">
+                        < 10mins </a>
+                </li>
+                <li><a class="dropdown-item" href="#">10 - 30 mins</a></li>
+                <li><a class="dropdown-item" href="#">30 - 60 mins</a></li>
+                <li><a class="dropdown-item" href="#">1 - 2 hours</a></li>
+                <li><a class="dropdown-item" href="#">2 - 3 hours</a></li>
+                <li><a class="dropdown-item" href="#">3+ hours</a></li>
+            </ul>
+        </div>
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ratings
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Best Seller</a></li>
+                <li><a class="dropdown-item" href="#">Popular</a></li>
+                <li><a class="dropdown-item" href="#">Featured</a></li>
+            </ul>
+        </div>
+        <button type="button" class="btn btn-outline-primary">Reset</button>
+    </div>
+    <hr />
+    <div class="browse-heading">
+        <text>Browse / Technology</text>
+        <h2>Web Development</h2>
+    </div>
+    <hr />
+    <div class="sorting d-flex justify-content-between">
+        <text>7 results for "Web development"</text>
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Sort by
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Dicount - low to high</a></li>
+                <li><a class="dropdown-item" href="#">Dicount - high to low</a></li>
+                <li><a class="dropdown-item" href="#">Price - low to high</a></li>
+                <li><a class="dropdown-item" href="#">Price - high to low</a></li>
+            </ul>
+        </div>
+    </div>
+    <hr />
+    <div>
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/python.png" alt="Python Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h3>Python Programming: From Beginner to Advanced</h3>
+                <h4>By : Jose Portilla</h4>
+                <small>(4.0)</small>
+                <img src="images/python_star.png" alt="Python ratings" />
+                <small>(2,112)</small>
+                <h6>Skills: Data Analysis, Web Development, Automation</h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/js.png" alt="JavaScript Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h3>JavaScript Fundamentals: Learn the Basics and Beyond</h3>
+                <h4>By : Wes Bos</h4>
+                <small>(4.8)</small>
+                <img src="images/js_star.png" alt="JavaScript ratings" />
+                <small>(5,013)</small>
+                <h6>
+                    Skills: Web Development, Front-End Development, Back-End Development
+                </h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/project.png" alt="Project Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h3>Project Management Essentials: From Planning to Execution</h3>
+                <h4>By : Rita Mulcahy</h4>
+                <small>(4.0)</small>
+                <img src="images/project_star.png" alt="Project ratings" />
+                <small>(3,236)</small>
+                <h6>Skills: Planning, Organization, Communication</h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/database.png" alt="Python Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h2>Database Design and Management Fundamentals</h2>
+                <h4>By : Kevin Skoglund</h4>
+                <small>(4.5)</small>
+                <img src="images/database_star.png" alt="Database ratings" />
+                <small>(3,569)</small>
+                <h6>
+                    Skills: Database Design, SQL Programming, Database Administration
+                </h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/digital_design.png" alt="Digital Design Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h2>Digital Design and User Interact</h2>
+                <h4>By : Bisi Alawode</h4>
+                <small>(4.5)</small>
+                <img src="images/digital_design_star.png" alt="Digital Design ratings" />
+                <small>(7,256)</small>
+                <h6>Skills: Graphic design, Web Design, UI & UX</h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/full_stack.png" alt="Full Stack Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h2>Full Stack Web Development</h2>
+                <h4>By : Angela Yu</h4>
+                <small>(4.8)</small>
+                <img src="images/full_stack_star.png" alt="Full Stack ratings" />
+                <small>(4,258)</small>
+                <h6>Skills: HTML/CSS, JavaScript, Deployment</h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="course d-flex justify-content-around align-items-end">
+            <div class="course-thumbnail">
+                <img src="images/machine_learning.png" alt="Machine Learning Course" />
+            </div>
+            <div class="course-text align-self-start">
+                <h2>Machine Learning</h2>
+                <h4>By : Andrew Ng</h4>
+                <small>(4.5)</small>
+                <img src="images/machine_learning_star.png" alt="Machine Learning ratings" />
+                <small>(5,698)</small>
+                <h6>Skills: Data Analysis, Web Development, Automation</h6>
+            </div>
+            <div class="course-enroll">
+                <button type="button" class="btn btn-outline-primary">Enroll</button>
+            </div>
+        </div>
+        <hr />
+        <div class="d-flex justify-content-center align-items-center">
+            <button class="btn btn-outline-primary course-showmorebtn">
+                Show more
+            </button>
+        </div>
+    </div>
+    <hr />
+    <div class="container">
+        <footer class="py-5">
+            <div class="row">
+                <div class="col-6 col-md-2 mb-3">
+                    <a href="index.html"><img src="images/LOGO.png" alt="Cognify Logo" class="footer-logo" /></a>
+                </div>
+                <div class="col-6 col-md-2 mb-3 footer-nav">
+                    <a href="index.html">
+                        <h5>Home</h5>
+                    </a>
+                    <a href="about.html">
+                        <h5>About Us</h5>
+                    </a>
+                    <a href="index.html">
+                        <h5>Contact Us</h5>
+                    </a>
+                    <a href="about.html">
+                        <h5>Careers</h5>
+                    </a>
+                    <a href="courses.html">
+                        <h5>All Courses</h5>
+                    </a>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Popular Courses</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Project Management</li>
+                        <li class="nav-item mb-2">JavaScript Programming</li>
+                        <li class="nav-item mb-2">Database Design</li>
+                        <li class="nav-item mb-2">Digital Design and User Interact</li>
+                    </ul>
+                </div>
+
+                <div class="col-6 col-md-2 mb-3">
+                    <h5>Certifications</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">Google IT Support</li>
+                        <li class="nav-item mb-2">IBM Data Analyst</li>
+                        <li class="nav-item mb-2">Meta Developer</li>
+                        <li class="nav-item mb-2">Project Management Professional</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 offset-md-1 mb-3">
+                    <h5>Follow Us</h5>
+                    <div class="socials d-flex">
+                        <a href="https://www.facebook.com/cognify"><img src="images/Facebook.png" alt="Facebook" /></a>
+                        <a href="https://www.instagram.com/cognifyai"><img src="images/instagram.png"
+                                alt="instagram" /></a>
+                        <a href="https://www.twitter.com/cognify"><img src="images/Twitter.png" alt="Twitter" /></a>
+                        <a href="https://www.youtube.com/cognify"><img src="images/youtube.png" alt="Youtube" /></a>
+                        <a href="https://www.linkedin.com/cognify"><img src="images/linkedin.png" alt="linkedin" /></a>
+                        <a href="https://www.tiktok.com/cognify"><img src="images/TikTok.png" alt="TikTok" /></a>
+                    </div>
+                    <div class="download d-flex">
+                        <a href="https://apps.apple.com/ca/app/cognify-ai-studio/id1668795321"><img
+                                src="images/App_Store.png" alt="App_Store" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.cognifystudio"><img
+                                src="images/Google_Play.png" alt="Google_Play" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="d-flex flex-column flex-sm-row justify-content-center py-4 my-4 border-top">
+                <p>©Copyright 2023 Cognify. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
